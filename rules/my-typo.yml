@@ -1,0 +1,11 @@
+version: 1
+rules:
+  # 気づいたらtypoしてるやつ
+  - expected: 私の場合
+    pattern: 渡しの場合
+    specs:
+      - from: 渡しの場合
+        to: 私の場合
+  # 氷菓に言及することが多いので、評価と間違えて氷菓を使うことがある
+  - expected: 評価($1)
+    pattern: /氷菓(する|した)/

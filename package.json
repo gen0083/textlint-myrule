@@ -1,0 +1,40 @@
+{
+  "name": "@gcreate/textlint-myrule",
+  "description": "Textlint rule for gen0083",
+  "version": "0.0.4",
+  "author": "gen0083",
+  "dependencies": {
+    "textlint": "^11.2.5",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-max-ten": "^2.0.3",
+    "textlint-rule-preset-jtf-style": "^2.3.3",
+    "textlint-rule-prh": "^5.2.0"
+  },
+  "devDependencies": {
+    "fixpack": "^2.3.1"
+  },
+  "keywords": [
+    "prh",
+    "textlint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "prh.yml",
+    ".textlintrc",
+    "rules/*",
+    "index.js"
+  ],
+  "bin": {
+    "textlint-myrule": "./index.js"
+  }
+}

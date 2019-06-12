@@ -1,0 +1,6 @@
+# from gitignore
+node_modules/
+
+# ignore files only npm
+test/*
+sample/*
